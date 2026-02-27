@@ -1,0 +1,10 @@
+name: first manifest
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-slim
+    steps:
+    - name: say hello
+      run: echo 'hi there'
+    - name: say bye
+      run: echo 'bye bye'
